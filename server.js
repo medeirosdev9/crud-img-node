@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.use('/imagens', imageRoutes);
 
-const port = 8080;
+const port = 9090;
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
